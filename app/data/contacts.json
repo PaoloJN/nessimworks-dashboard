@@ -1,0 +1,993 @@
+[
+  {
+    "uuid": "515b22c5-ff9f-444e-b353-1fd0e7453e1a",
+    "hubspotContactId": "ae92b3f6-5dcd-4138-b0de-09a3c83831e0",
+    "firstName": "Marilie",
+    "lastName": "Erdman",
+    "compony": "engineer",
+    "website": "https://helpful-draw.name",
+    "email": "Kory96@gmail.com",
+    "phone": "307-402-7881",
+    "tags": [
+      "seo",
+      "marketing",
+      "wordpress",
+      "design",
+      "reactjs",
+      "ecommerce",
+      "php",
+      "nodejs"
+    ],
+    "categories": ["marketing"],
+    "netRating": 1,
+    "notes": [
+      {
+        "uuid": "a6a6e481-4a5b-439a-87fe-19a693415c19",
+        "creationDate": "2023-01-24T11:11:30.427Z",
+        "noteContent": "Try to reboot the SMTP matrix, maybe it will transmit the virtual protocol!"
+      },
+      {
+        "uuid": "52879233-412d-4114-8743-006b7a8f0a0b",
+        "creationDate": "2022-08-12T20:12:39.619Z",
+        "noteContent": "I'll index the 1080p CLI capacitor, that should matrix the CLI panel!"
+      }
+    ],
+    "projects": [
+      {
+        "uuid": "db500a41-aaab-452d-ae76-fd45b0e9d1f9",
+        "title": "Bike",
+        "priorities": "backlog",
+        "status": "paid",
+        "notes": [
+          {
+            "uuid": "d6ce1939-8c9b-4c06-b021-2d49f163d0fd",
+            "creationDate": "2023-04-09T20:36:16.352Z",
+            "noteContent": "You can't back up the card without calculating the auxiliary SAS interface!"
+          }
+        ]
+      }
+    ],
+    "earnings": [
+      {
+        "uuid": "44a1869c-cb45-4915-8097-cf9b7cc85969",
+        "amount": 3401,
+        "status": "low"
+      }
+    ]
+  },
+  {
+    "uuid": "d348f485-037c-4d58-a83d-7248b65880f5",
+    "hubspotContactId": "ea5b9069-7b3f-4508-a4bf-a0b86c65c9e3",
+    "firstName": "Douglas",
+    "lastName": "Schaefer",
+    "compony": "harness",
+    "website": "https://dismal-history.org/",
+    "email": "Myrtie.Marks7@gmail.com",
+    "phone": "889-024-6438",
+    "tags": [
+      "seo",
+      "design",
+      "nodejs",
+      "reactjs",
+      "php",
+      "marketing",
+      "wordpress"
+    ],
+    "categories": ["tech", "seo", "design"],
+    "netRating": 7,
+    "notes": [
+      {
+        "uuid": "2abe2c8f-675d-4aa7-b351-18197066c5dc",
+        "creationDate": "2022-07-23T09:33:13.249Z",
+        "noteContent": "The UTF8 microchip is down, back up the redundant circuit so we can compress the SAS driver!"
+      },
+      {
+        "uuid": "eb2be4d7-7d91-4a7a-a68b-efc0db997551",
+        "creationDate": "2023-02-25T16:15:24.933Z",
+        "noteContent": "Try to generate the XSS monitor, maybe it will copy the haptic program!"
+      }
+    ],
+    "projects": [
+      {
+        "uuid": "77a6628a-5f59-4fe8-a5d1-93ea6014ab5c",
+        "title": "Salad",
+        "priorities": "backlog",
+        "status": "overdue",
+        "notes": [
+          {
+            "uuid": "198ad5e9-45ab-4f9c-99d7-b67b97c99d94",
+            "creationDate": "2023-02-10T13:45:48.500Z",
+            "noteContent": "If we calculate the card, we can get to the USB system through the multi-byte TLS bus!"
+          }
+        ]
+      }
+    ],
+    "earnings": [
+      {
+        "uuid": "db197835-a3a3-4b28-b4d2-62047b6278e2",
+        "amount": 8119,
+        "status": "medium"
+      }
+    ]
+  },
+  {
+    "uuid": "0a9c8c62-0979-450c-830b-6effe520667d",
+    "hubspotContactId": "e9dc6dd0-34ac-4d69-aa0d-1202f71f908f",
+    "firstName": "Kristy",
+    "lastName": "Jacobs",
+    "compony": "aggregate",
+    "website": "https://well-made-gnat.com/",
+    "email": "Lizeth_Welch62@hotmail.com",
+    "phone": "002-746-1439",
+    "tags": ["marketing", "php", "seo", "reactjs", "design", "wordpress"],
+    "categories": ["ecommerce", "tech"],
+    "netRating": 8,
+    "notes": [
+      {
+        "uuid": "aa11a18d-7e15-469c-8367-37b212bacbb5",
+        "creationDate": "2023-01-18T08:55:09.462Z",
+        "noteContent": "bypassing the bandwidth won't do anything, we need to index the cross-platform SSL transmitter!"
+      },
+      {
+        "uuid": "b9f02616-ed40-4f55-82c6-76c43ffad95c",
+        "creationDate": "2022-09-09T22:43:06.725Z",
+        "noteContent": "Try to generate the AI matrix, maybe it will transmit the online alarm!"
+      }
+    ],
+    "projects": [
+      {
+        "uuid": "28f5d70d-516c-4d65-9c64-d5acd15bc6bc",
+        "title": "Salad",
+        "priorities": "canceled",
+        "status": "paid",
+        "notes": [
+          {
+            "uuid": "de6f3ac1-82a6-4771-a1a8-e571144554aa",
+            "creationDate": "2023-03-12T21:52:55.355Z",
+            "noteContent": "We need to compress the 1080p COM circuit!"
+          }
+        ]
+      }
+    ],
+    "earnings": [
+      {
+        "uuid": "7d50261d-378b-45a4-9102-f65fc8f00316",
+        "amount": 8685,
+        "status": "low"
+      }
+    ]
+  },
+  {
+    "uuid": "f2055bfd-e369-4013-9c43-b9eae092fd6f",
+    "hubspotContactId": "59b5cb7b-a4be-4bfc-b682-6c148eae0a7a",
+    "firstName": "Doug",
+    "lastName": "Yost",
+    "compony": "leverage",
+    "website": "https://testy-overshoot.com",
+    "email": "Johnnie6@gmail.com",
+    "phone": "803-792-3942",
+    "tags": [
+      "ecommerce",
+      "nodejs",
+      "marketing",
+      "php",
+      "design",
+      "seo",
+      "wordpress"
+    ],
+    "categories": ["ecommerce", "marketing", "tech", "seo"],
+    "netRating": 2,
+    "notes": [
+      {
+        "uuid": "64e052ea-94c3-4f88-8f33-be465150b491",
+        "creationDate": "2023-03-23T02:46:04.379Z",
+        "noteContent": "The SMS transmitter is down, connect the mobile circuit so we can index the HEX alarm!"
+      },
+      {
+        "uuid": "35f8e84d-b4b2-486b-abe7-c8597e08c9d9",
+        "creationDate": "2022-09-23T22:53:23.927Z",
+        "noteContent": "Use the haptic HEX array, then you can transmit the primary card!"
+      }
+    ],
+    "projects": [
+      {
+        "uuid": "647b3121-357c-46f7-bf9f-df65ac245505",
+        "title": "Tuna",
+        "priorities": "canceled",
+        "status": "overdue",
+        "notes": [
+          {
+            "uuid": "47c014f7-6b41-4977-92cf-11b75975950b",
+            "creationDate": "2022-09-24T07:49:09.671Z",
+            "noteContent": "Try to bypass the SSD program, maybe it will copy the 1080p firewall!"
+          }
+        ]
+      }
+    ],
+    "earnings": [
+      {
+        "uuid": "7a3a98b5-7308-459d-a106-f6972c15140d",
+        "amount": 4779,
+        "status": "low"
+      }
+    ]
+  },
+  {
+    "uuid": "42511403-9a4c-48e4-b468-722ba5d6318d",
+    "hubspotContactId": "6b9e7748-6dda-49c1-8fae-8c3b115a9e75",
+    "firstName": "Asa",
+    "lastName": "Jast",
+    "compony": "exploit",
+    "website": "https://natural-blizzard.biz",
+    "email": "Rod.Anderson95@hotmail.com",
+    "phone": "514-010-1896",
+    "tags": ["reactjs", "php", "ecommerce", "marketing"],
+    "categories": ["marketing"],
+    "netRating": 1,
+    "notes": [
+      {
+        "uuid": "ed5f6912-8660-48f4-8312-0aeaf29ead88",
+        "creationDate": "2023-01-04T05:02:14.634Z",
+        "noteContent": "Use the primary RSS capacitor, then you can quantify the auxiliary protocol!"
+      },
+      {
+        "uuid": "64f6dfd6-8cfa-4d26-9c1d-1d06571141ea",
+        "creationDate": "2023-03-29T09:12:34.996Z",
+        "noteContent": "If we program the capacitor, we can get to the VGA interface through the open-source COM protocol!"
+      }
+    ],
+    "projects": [
+      {
+        "uuid": "0f175f63-9813-476c-b2fd-e0b8ac3fe0ef",
+        "title": "Computer",
+        "priorities": "done",
+        "status": "paid",
+        "notes": [
+          {
+            "uuid": "e205c6dd-a6c2-485f-9e4c-f5723de2154b",
+            "creationDate": "2022-08-13T23:03:48.268Z",
+            "noteContent": "Use the optical JBOD driver, then you can reboot the online system!"
+          }
+        ]
+      }
+    ],
+    "earnings": [
+      {
+        "uuid": "1b3eac50-de49-4ea8-9b6b-cae4880aab75",
+        "amount": 3959,
+        "status": "low"
+      }
+    ]
+  },
+  {
+    "uuid": "39c06728-3ece-4eb0-9dae-aced6b07d4cc",
+    "hubspotContactId": "c7ed0e5a-f590-410f-aedf-3b9a531e8f20",
+    "firstName": "Lyric",
+    "lastName": "Ruecker",
+    "compony": "grow",
+    "website": "https://trustworthy-picturesque.com/",
+    "email": "Hermina.Ruecker25@hotmail.com",
+    "phone": "030-348-8781",
+    "tags": [
+      "nodejs",
+      "design",
+      "reactjs",
+      "ecommerce",
+      "marketing",
+      "wordpress",
+      "seo"
+    ],
+    "categories": ["design", "seo", "ecommerce"],
+    "netRating": 7,
+    "notes": [
+      {
+        "uuid": "e8d400a5-9686-462b-85d3-24b5ac102697",
+        "creationDate": "2022-07-26T00:30:10.537Z",
+        "noteContent": "Use the bluetooth ASCII monitor, then you can transmit the digital interface!"
+      },
+      {
+        "uuid": "c8e4b990-038f-4012-8e61-b482382b7b1e",
+        "creationDate": "2022-08-28T00:32:28.643Z",
+        "noteContent": "Use the online SDD sensor, then you can quantify the virtual feed!"
+      }
+    ],
+    "projects": [
+      {
+        "uuid": "8e165322-484d-4f49-8b38-1737b17f3800",
+        "title": "Pizza",
+        "priorities": "backlog",
+        "status": "paid",
+        "notes": [
+          {
+            "uuid": "962dcc75-f524-4df8-b178-8685835583cd",
+            "creationDate": "2023-02-22T18:20:59.197Z",
+            "noteContent": "We need to quantify the 1080p CLI pixel!"
+          }
+        ]
+      }
+    ],
+    "earnings": [
+      {
+        "uuid": "a8e7b9af-fefb-4860-972e-a586493972e5",
+        "amount": 3836,
+        "status": "high"
+      }
+    ]
+  },
+  {
+    "uuid": "aaa24d83-2915-40f7-be14-df033e8fb791",
+    "hubspotContactId": "fb77907b-cca0-4d79-92ee-cfde6b3ab560",
+    "firstName": "Christa",
+    "lastName": "Schamberger",
+    "compony": "empower",
+    "website": "https://fruitful-heat.biz/",
+    "email": "Laverne_Erdman92@yahoo.com",
+    "phone": "082-884-2600",
+    "tags": ["reactjs", "wordpress", "php"],
+    "categories": ["ecommerce", "tech", "marketing", "seo", "design"],
+    "netRating": 6,
+    "notes": [
+      {
+        "uuid": "4231eb4e-22ed-4729-bd8e-91af6566f3a7",
+        "creationDate": "2023-05-24T18:11:59.553Z",
+        "noteContent": "You can't back up the hard drive without copying the neural JSON card!"
+      },
+      {
+        "uuid": "cbed0188-177c-4f2d-89e0-ae2ac0eff3cf",
+        "creationDate": "2022-09-17T03:43:56.357Z",
+        "noteContent": "The IB circuit is down, index the online interface so we can reboot the USB array!"
+      }
+    ],
+    "projects": [
+      {
+        "uuid": "c89869e9-3620-4b92-bf4c-5aab0fefcb78",
+        "title": "Sausages",
+        "priorities": "canceled",
+        "status": "overdue",
+        "notes": [
+          {
+            "uuid": "288edd92-be13-4f2a-a605-50a0c5cdb7ae",
+            "creationDate": "2023-06-15T22:33:23.304Z",
+            "noteContent": "I'll input the neural SMTP feed, that should microchip the XML microchip!"
+          }
+        ]
+      }
+    ],
+    "earnings": [
+      {
+        "uuid": "839954ad-7053-4b4c-875b-a8288782938e",
+        "amount": 7987,
+        "status": "medium"
+      }
+    ]
+  },
+  {
+    "uuid": "489e0112-71f9-4449-9ca3-e9b90ccc7449",
+    "hubspotContactId": "eb8926e2-df0d-471a-82c9-150617195320",
+    "firstName": "Willard",
+    "lastName": "Gorczany",
+    "compony": "morph",
+    "website": "https://plastic-choice.com/",
+    "email": "Liza_Hyatt@gmail.com",
+    "phone": "140-902-3143",
+    "tags": ["seo"],
+    "categories": ["seo", "design", "tech", "ecommerce", "marketing"],
+    "netRating": 2,
+    "notes": [
+      {
+        "uuid": "a11c5c46-2a45-41a1-9c7a-738379016ccc",
+        "creationDate": "2022-10-20T22:06:08.365Z",
+        "noteContent": "You can't synthesize the card without navigating the open-source SDD pixel!"
+      },
+      {
+        "uuid": "bc028c63-5675-4501-9159-9d72f0e9d358",
+        "creationDate": "2023-05-14T00:23:43.243Z",
+        "noteContent": "Use the cross-platform COM driver, then you can override the solid state card!"
+      }
+    ],
+    "projects": [
+      {
+        "uuid": "c93b0ce3-c28e-4589-b309-1ecb7c90ab4d",
+        "title": "Bike",
+        "priorities": "done",
+        "status": "pending",
+        "notes": [
+          {
+            "uuid": "4f2b5742-08d6-402d-bbbd-d93f20b98517",
+            "creationDate": "2022-10-20T10:43:49.172Z",
+            "noteContent": "The CLI sensor is down, bypass the cross-platform alarm so we can transmit the COM interface!"
+          }
+        ]
+      }
+    ],
+    "earnings": [
+      {
+        "uuid": "0020f1a5-9f73-4300-9eae-69a5f52175eb",
+        "amount": 9821,
+        "status": "low"
+      }
+    ]
+  },
+  {
+    "uuid": "2e78a812-d9a1-4c70-ba8f-2f13d48c87c0",
+    "hubspotContactId": "c474ab42-84bd-4f76-bc65-b7a97c77bcbd",
+    "firstName": "Conrad",
+    "lastName": "Spinka",
+    "compony": "leverage",
+    "website": "https://improbable-documentation.info",
+    "email": "Forrest.Tromp@hotmail.com",
+    "phone": "868-483-6221",
+    "tags": ["design", "ecommerce", "seo", "marketing", "reactjs", "wordpress"],
+    "categories": ["design"],
+    "netRating": 4,
+    "notes": [
+      {
+        "uuid": "d55bdb2c-beb6-4adb-a306-043e93903844",
+        "creationDate": "2023-02-13T06:34:47.383Z",
+        "noteContent": "The EXE driver is down, hack the neural capacitor so we can connect the TCP firewall!"
+      },
+      {
+        "uuid": "7f044d95-e822-4842-aea6-27e7d21ce7e4",
+        "creationDate": "2022-09-08T21:00:19.533Z",
+        "noteContent": "Try to transmit the ASCII alarm, maybe it will override the cross-platform firewall!"
+      }
+    ],
+    "projects": [
+      {
+        "uuid": "3666d603-2e51-4008-a789-d3aa34cc2206",
+        "title": "Shoes",
+        "priorities": "done",
+        "status": "pending",
+        "notes": [
+          {
+            "uuid": "c9231274-9fa4-4e62-94c6-926d3f2a8b55",
+            "creationDate": "2022-09-16T09:14:08.084Z",
+            "noteContent": "We need to program the auxiliary CSS array!"
+          }
+        ]
+      }
+    ],
+    "earnings": [
+      {
+        "uuid": "9600f5a2-104a-45a0-b05f-ce3368d4787c",
+        "amount": 3490,
+        "status": "low"
+      }
+    ]
+  },
+  {
+    "uuid": "8eca6832-7011-48bc-898b-41064589d1c2",
+    "hubspotContactId": "aa8b62c6-3b0f-44ca-a263-f6162d10dbcb",
+    "firstName": "Mitchell",
+    "lastName": "Herzog",
+    "compony": "unleash",
+    "website": "https://motionless-larch.com/",
+    "email": "Lincoln88@hotmail.com",
+    "phone": "842-359-6317",
+    "tags": ["seo", "reactjs", "nodejs", "design"],
+    "categories": ["marketing", "seo", "tech", "ecommerce", "design"],
+    "netRating": 7,
+    "notes": [
+      {
+        "uuid": "9f027e68-04dd-4df5-bcc1-0e08f2e89b9b",
+        "creationDate": "2023-04-28T14:16:26.684Z",
+        "noteContent": "If we program the application, we can get to the FTP circuit through the solid state HTTP firewall!"
+      },
+      {
+        "uuid": "1090e6c6-14a1-48b0-8cd1-2f988f03c64c",
+        "creationDate": "2023-06-19T06:06:43.374Z",
+        "noteContent": "Try to hack the SSD monitor, maybe it will quantify the primary pixel!"
+      }
+    ],
+    "projects": [
+      {
+        "uuid": "17cdfed6-c8a9-4c4d-ad7c-1ca9f91f3fb8",
+        "title": "Pizza",
+        "priorities": "done",
+        "status": "overdue",
+        "notes": [
+          {
+            "uuid": "8f3f8398-8a2e-4541-83da-6eaab8e09374",
+            "creationDate": "2022-09-23T03:17:30.711Z",
+            "noteContent": "Use the back-end ADP panel, then you can parse the cross-platform array!"
+          }
+        ]
+      }
+    ],
+    "earnings": [
+      {
+        "uuid": "698a34c7-1dbf-4b36-8b3d-ed3c8fb0627d",
+        "amount": 3635,
+        "status": "medium"
+      }
+    ]
+  },
+  {
+    "uuid": "f2116148-a034-4be7-b7ee-a0ae75890888",
+    "hubspotContactId": "cd912296-e203-4e20-a22a-560852b1ae33",
+    "firstName": "Madge",
+    "lastName": "Heidenreich",
+    "compony": "productize",
+    "website": "https://grandiose-jaw.name",
+    "email": "Velma77@yahoo.com",
+    "phone": "984-935-6431",
+    "tags": [
+      "marketing",
+      "nodejs",
+      "reactjs",
+      "ecommerce",
+      "php",
+      "wordpress",
+      "seo",
+      "design"
+    ],
+    "categories": ["ecommerce", "marketing", "seo", "tech", "design"],
+    "netRating": 7,
+    "notes": [
+      {
+        "uuid": "38373b45-69ef-411c-bc5d-891fa802ad15",
+        "creationDate": "2023-02-23T10:41:18.962Z",
+        "noteContent": "compressing the bandwidth won't do anything, we need to program the haptic HDD microchip!"
+      },
+      {
+        "uuid": "841b4eec-2d3f-4806-a8c2-8406938e8e40",
+        "creationDate": "2022-11-21T01:40:08.441Z",
+        "noteContent": "We need to compress the primary SQL transmitter!"
+      }
+    ],
+    "projects": [
+      {
+        "uuid": "7a77fe13-7e04-40e4-93d1-4fcc66e96844",
+        "title": "Pants",
+        "priorities": "done",
+        "status": "overdue",
+        "notes": [
+          {
+            "uuid": "70f92ec5-3263-4b69-aca2-69de6a5f143d",
+            "creationDate": "2023-04-20T04:15:04.075Z",
+            "noteContent": "We need to generate the optical TCP pixel!"
+          }
+        ]
+      }
+    ],
+    "earnings": [
+      {
+        "uuid": "7f0847af-072c-4bee-a484-ea91dd09150b",
+        "amount": 7178,
+        "status": "medium"
+      }
+    ]
+  },
+  {
+    "uuid": "b11902fe-f177-4782-b3df-d739a698b44a",
+    "hubspotContactId": "649ea08f-9c9f-4102-8b9a-e7ba4ae1f9da",
+    "firstName": "Kiana",
+    "lastName": "Runte",
+    "compony": "generate",
+    "website": "https://left-combination.biz/",
+    "email": "Elouise26@hotmail.com",
+    "phone": "947-352-2116",
+    "tags": ["wordpress", "reactjs"],
+    "categories": ["marketing", "seo", "ecommerce", "design", "tech"],
+    "netRating": 5,
+    "notes": [
+      {
+        "uuid": "ed395d15-b2d5-47e2-81b1-2140fa3b3d51",
+        "creationDate": "2023-04-27T12:39:06.108Z",
+        "noteContent": "programming the circuit won't do anything, we need to hack the open-source USB system!"
+      },
+      {
+        "uuid": "dbf31824-14d0-4a0f-b971-01ea62890ae7",
+        "creationDate": "2022-09-12T05:45:05.036Z",
+        "noteContent": "You can't synthesize the bus without bypassing the multi-byte SSL interface!"
+      }
+    ],
+    "projects": [
+      {
+        "uuid": "ea060b5a-3214-4f23-a61d-45f19c06e72d",
+        "title": "Mouse",
+        "priorities": "todo",
+        "status": "overdue",
+        "notes": [
+          {
+            "uuid": "a69d84d7-d750-4c8e-9af0-01761dd27448",
+            "creationDate": "2022-12-22T08:51:53.117Z",
+            "noteContent": "Use the wireless CSS port, then you can index the optical matrix!"
+          }
+        ]
+      }
+    ],
+    "earnings": [
+      {
+        "uuid": "d1188097-2c80-4c0e-bcc3-eb7c242fcaa6",
+        "amount": 9596,
+        "status": "medium"
+      }
+    ]
+  },
+  {
+    "uuid": "d06bfd86-8c5e-44f2-be52-f082c9da88df",
+    "hubspotContactId": "cc50e505-a301-4df3-ae22-4f9954c74615",
+    "firstName": "Pietro",
+    "lastName": "Bartoletti",
+    "compony": "synergize",
+    "website": "https://expensive-action.org",
+    "email": "Brendon.Ebert@hotmail.com",
+    "phone": "079-177-0513",
+    "tags": ["reactjs"],
+    "categories": ["ecommerce", "design", "marketing", "tech", "seo"],
+    "netRating": 7,
+    "notes": [
+      {
+        "uuid": "4ddf32a3-ed6a-405f-b36c-77f2177f089c",
+        "creationDate": "2022-07-08T04:47:56.411Z",
+        "noteContent": "indexing the bandwidth won't do anything, we need to connect the solid state CLI card!"
+      },
+      {
+        "uuid": "97e131e2-821b-4eb6-9cca-9e79d9c0847a",
+        "creationDate": "2023-02-24T03:12:10.707Z",
+        "noteContent": "generating the sensor won't do anything, we need to compress the primary OCR array!"
+      }
+    ],
+    "projects": [
+      {
+        "uuid": "14de0189-6d5a-466b-952e-01dee29c5b13",
+        "title": "Pants",
+        "priorities": "in progress",
+        "status": "paid",
+        "notes": [
+          {
+            "uuid": "1f00772c-c494-469c-a865-56c9c6f5d2fa",
+            "creationDate": "2022-09-08T02:11:41.266Z",
+            "noteContent": "If we navigate the firewall, we can get to the SQL array through the bluetooth EXE monitor!"
+          }
+        ]
+      }
+    ],
+    "earnings": [
+      {
+        "uuid": "0dcb73c0-cadd-43a0-88c5-a45b1d3f9407",
+        "amount": 8659,
+        "status": "low"
+      }
+    ]
+  },
+  {
+    "uuid": "a99de03c-ac52-49c6-ae54-79546ab3b556",
+    "hubspotContactId": "53be794d-af9d-477e-bd38-db3f8c4f4528",
+    "firstName": "Annabelle",
+    "lastName": "Kulas",
+    "compony": "matrix",
+    "website": "https://gruesome-bijou.biz/",
+    "email": "Bonnie13@hotmail.com",
+    "phone": "133-604-9414",
+    "tags": ["reactjs", "seo", "php", "marketing"],
+    "categories": ["ecommerce", "marketing", "design", "seo", "tech"],
+    "netRating": 1,
+    "notes": [
+      {
+        "uuid": "c65e01bd-11f0-450b-b7fb-9c464b885916",
+        "creationDate": "2023-04-09T23:21:38.380Z",
+        "noteContent": "Use the open-source EXE port, then you can override the primary bandwidth!"
+      },
+      {
+        "uuid": "6691573d-0333-4074-b168-655dc4e50a20",
+        "creationDate": "2022-12-23T07:07:25.806Z",
+        "noteContent": "Try to reboot the XSS circuit, maybe it will connect the multi-byte bandwidth!"
+      }
+    ],
+    "projects": [
+      {
+        "uuid": "5fef1f01-a4ce-46a4-b3d6-fc260b70ceeb",
+        "title": "Shoes",
+        "priorities": "todo",
+        "status": "overdue",
+        "notes": [
+          {
+            "uuid": "e0a0a08b-1d0b-4861-897a-9f2af950391c",
+            "creationDate": "2022-11-21T17:10:15.669Z",
+            "noteContent": "Try to parse the IP circuit, maybe it will quantify the auxiliary firewall!"
+          }
+        ]
+      }
+    ],
+    "earnings": [
+      {
+        "uuid": "b43959c3-bca8-4ab0-bd69-a8e1a55d2c9a",
+        "amount": 2214,
+        "status": "medium"
+      }
+    ]
+  },
+  {
+    "uuid": "b1ad865b-6346-4609-a224-15f161802ee9",
+    "hubspotContactId": "d1e72ca5-4944-405b-848b-8c01e132ae9a",
+    "firstName": "Louie",
+    "lastName": "Heidenreich",
+    "compony": "enable",
+    "website": "https://spicy-browsing.net",
+    "email": "Krystal12@gmail.com",
+    "phone": "043-941-2357",
+    "tags": ["ecommerce", "reactjs", "wordpress"],
+    "categories": ["marketing", "seo", "tech", "design", "ecommerce"],
+    "netRating": 2,
+    "notes": [
+      {
+        "uuid": "85426469-bd8d-4035-bed3-b7ed0c094659",
+        "creationDate": "2023-06-20T10:37:42.557Z",
+        "noteContent": "Try to connect the ASCII panel, maybe it will parse the redundant bandwidth!"
+      },
+      {
+        "uuid": "8c541215-070e-4160-94d9-82af90be5916",
+        "creationDate": "2022-07-04T16:37:23.104Z",
+        "noteContent": "The COM pixel is down, compress the haptic matrix so we can generate the ASCII application!"
+      }
+    ],
+    "projects": [
+      {
+        "uuid": "1701cfa3-df28-476f-b59b-a40307a703cd",
+        "title": "Computer",
+        "priorities": "backlog",
+        "status": "paid",
+        "notes": [
+          {
+            "uuid": "c5df8540-a3b7-46f2-9b3f-26a79b296300",
+            "creationDate": "2022-12-08T04:34:20.294Z",
+            "noteContent": "Use the back-end XSS hard drive, then you can copy the haptic panel!"
+          }
+        ]
+      }
+    ],
+    "earnings": [
+      {
+        "uuid": "c8b89a4f-5fc9-4339-a467-c6cfdbb1fefa",
+        "amount": 9612,
+        "status": "low"
+      }
+    ]
+  },
+  {
+    "uuid": "303d945d-5405-4f65-b9c1-962a51a2e370",
+    "hubspotContactId": "deb6f32d-a0ba-4b0e-8419-32e238c9cae0",
+    "firstName": "Dangelo",
+    "lastName": "Cartwright",
+    "compony": "deploy",
+    "website": "https://snappy-chutney.name/",
+    "email": "Sister37@yahoo.com",
+    "phone": "878-177-5371",
+    "tags": [
+      "wordpress",
+      "ecommerce",
+      "php",
+      "design",
+      "nodejs",
+      "marketing",
+      "seo",
+      "reactjs"
+    ],
+    "categories": ["seo", "ecommerce", "tech", "design"],
+    "netRating": 1,
+    "notes": [
+      {
+        "uuid": "8c741672-f881-4327-a5f3-e30038668730",
+        "creationDate": "2022-10-11T02:10:25.447Z",
+        "noteContent": "generating the interface won't do anything, we need to program the primary TCP matrix!"
+      },
+      {
+        "uuid": "44d59dec-1f6c-42f3-a31d-e00b686bdb15",
+        "creationDate": "2022-08-27T23:00:50.555Z",
+        "noteContent": "I'll program the primary SMTP program, that should driver the OCR application!"
+      }
+    ],
+    "projects": [
+      {
+        "uuid": "e5a26108-0a49-4081-a76f-102085824262",
+        "title": "Car",
+        "priorities": "backlog",
+        "status": "pending",
+        "notes": [
+          {
+            "uuid": "1b4aa503-06fa-42f5-ba8a-7b467ad698f8",
+            "creationDate": "2022-08-10T20:32:21.439Z",
+            "noteContent": "We need to quantify the mobile IB monitor!"
+          }
+        ]
+      }
+    ],
+    "earnings": [
+      {
+        "uuid": "ca88cf33-fac1-46cc-a654-32f89a41bb9a",
+        "amount": 1256,
+        "status": "low"
+      }
+    ]
+  },
+  {
+    "uuid": "b6a9b430-4781-450e-aca0-99445d5a33d4",
+    "hubspotContactId": "a2242211-e53c-4ac1-a209-7db85b3dd4e3",
+    "firstName": "Abelardo",
+    "lastName": "Sauer",
+    "compony": "whiteboard",
+    "website": "https://severe-ordination.net/",
+    "email": "Elisabeth_Marquardt@gmail.com",
+    "phone": "530-299-4197",
+    "tags": ["marketing", "seo", "nodejs", "wordpress", "design", "php"],
+    "categories": ["seo"],
+    "netRating": 7,
+    "notes": [
+      {
+        "uuid": "0697e614-0a4e-4970-b35d-a0058572a45e",
+        "creationDate": "2022-07-30T17:04:54.704Z",
+        "noteContent": "You can't parse the card without overriding the multi-byte SSD port!"
+      },
+      {
+        "uuid": "689322f9-1f22-4f18-9493-0059dd88cde3",
+        "creationDate": "2022-06-29T15:27:49.075Z",
+        "noteContent": "I'll calculate the wireless TLS protocol, that should port the OCR matrix!"
+      }
+    ],
+    "projects": [
+      {
+        "uuid": "311536ac-e36f-4f5b-ab42-e0ca6eb1a5d3",
+        "title": "Salad",
+        "priorities": "done",
+        "status": "paid",
+        "notes": [
+          {
+            "uuid": "3e32a269-92d9-4bd4-81b0-0117df82d80c",
+            "creationDate": "2022-09-08T13:11:01.934Z",
+            "noteContent": "We need to input the open-source OCR sensor!"
+          }
+        ]
+      }
+    ],
+    "earnings": [
+      {
+        "uuid": "80ae0d78-b342-452a-a1d5-f7ec1a258d02",
+        "amount": 1352,
+        "status": "low"
+      }
+    ]
+  },
+  {
+    "uuid": "ff5c24a9-d06f-47a5-b690-70a0d5e19542",
+    "hubspotContactId": "5517110b-e916-4783-b370-63761daa015e",
+    "firstName": "Rasheed",
+    "lastName": "Maggio",
+    "compony": "scale",
+    "website": "https://vicious-species.biz",
+    "email": "Jolie97@hotmail.com",
+    "phone": "149-597-6688",
+    "tags": ["nodejs"],
+    "categories": ["marketing", "seo", "ecommerce", "tech", "design"],
+    "netRating": 8,
+    "notes": [
+      {
+        "uuid": "afc1c903-d234-4067-9266-c872500d5acf",
+        "creationDate": "2023-04-27T16:04:03.011Z",
+        "noteContent": "generating the bus won't do anything, we need to connect the primary DNS array!"
+      },
+      {
+        "uuid": "708888f2-a1e9-4f39-8d2e-178dd495aecd",
+        "creationDate": "2022-10-23T21:41:20.063Z",
+        "noteContent": "If we input the alarm, we can get to the AGP program through the neural SSL monitor!"
+      }
+    ],
+    "projects": [
+      {
+        "uuid": "e603ede7-9fc7-43f1-b9e3-e757ab4ef96c",
+        "title": "Towels",
+        "priorities": "done",
+        "status": "pending",
+        "notes": [
+          {
+            "uuid": "dd48b46c-94b1-4f41-b121-d13329eec362",
+            "creationDate": "2023-04-06T07:23:55.646Z",
+            "noteContent": "I'll input the digital THX application, that should driver the SSD feed!"
+          }
+        ]
+      }
+    ],
+    "earnings": [
+      {
+        "uuid": "87c49c66-54b9-4b2b-82b2-4c8b76d6f4f1",
+        "amount": 2387,
+        "status": "medium"
+      }
+    ]
+  },
+  {
+    "uuid": "4c07291e-6452-4d4a-83ae-4e0f248f9a73",
+    "hubspotContactId": "7adbbf5d-399d-4a1f-8b7c-7b7e53e620a6",
+    "firstName": "Giovanny",
+    "lastName": "White",
+    "compony": "facilitate",
+    "website": "https://grimy-phenotype.com/",
+    "email": "Adonis22@hotmail.com",
+    "phone": "429-686-0809",
+    "tags": ["seo", "php", "wordpress", "reactjs", "ecommerce"],
+    "categories": ["marketing", "seo", "ecommerce"],
+    "netRating": 10,
+    "notes": [
+      {
+        "uuid": "95d63093-123b-4784-8d2d-ccf07a30c3cd",
+        "creationDate": "2023-06-07T16:13:42.437Z",
+        "noteContent": "quantifying the microchip won't do anything, we need to program the digital COM circuit!"
+      },
+      {
+        "uuid": "f922f163-bdd5-4bbf-a6a1-e7d6263173ab",
+        "creationDate": "2023-05-17T14:03:58.517Z",
+        "noteContent": "Try to compress the IB protocol, maybe it will input the neural circuit!"
+      }
+    ],
+    "projects": [
+      {
+        "uuid": "7ff3458a-a900-459a-8d18-47b215c7e144",
+        "title": "Cheese",
+        "priorities": "backlog",
+        "status": "pending",
+        "notes": [
+          {
+            "uuid": "3443ace5-b7c2-4690-afff-6843d73f9eab",
+            "creationDate": "2022-12-09T07:29:27.743Z",
+            "noteContent": "We need to program the bluetooth JBOD bandwidth!"
+          }
+        ]
+      }
+    ],
+    "earnings": [
+      {
+        "uuid": "41c9a5bd-32f1-43f7-a153-8608534df0bd",
+        "amount": 7524,
+        "status": "high"
+      }
+    ]
+  },
+  {
+    "uuid": "29de4925-ecbd-43c7-aed6-6c0f9f50c02c",
+    "hubspotContactId": "c94b33e0-ac4c-47b0-a993-7b5c7716634c",
+    "firstName": "Bella",
+    "lastName": "Wuckert",
+    "compony": "grow",
+    "website": "https://unwritten-tsunami.com",
+    "email": "Silas33@yahoo.com",
+    "phone": "338-368-3836",
+    "tags": ["wordpress", "seo", "nodejs"],
+    "categories": ["design", "seo", "ecommerce", "tech"],
+    "netRating": 5,
+    "notes": [
+      {
+        "uuid": "d815999f-32ca-415c-8176-31427d54d421",
+        "creationDate": "2023-01-24T21:24:59.704Z",
+        "noteContent": "You can't synthesize the firewall without navigating the auxiliary XSS firewall!"
+      },
+      {
+        "uuid": "5e05bccd-2621-4186-b045-443c0780b46c",
+        "creationDate": "2023-01-03T15:36:09.952Z",
+        "noteContent": "The AGP feed is down, program the 1080p system so we can quantify the AGP sensor!"
+      }
+    ],
+    "projects": [
+      {
+        "uuid": "055b7535-f064-4db0-ab5a-e44ff2a03de9",
+        "title": "Fish",
+        "priorities": "done",
+        "status": "pending",
+        "notes": [
+          {
+            "uuid": "3451d41e-4c52-4488-b8ca-7841aef5859f",
+            "creationDate": "2022-11-16T14:19:56.602Z",
+            "noteContent": "We need to back up the primary ADP capacitor!"
+          }
+        ]
+      }
+    ],
+    "earnings": [
+      {
+        "uuid": "f8893ea4-b9ca-4d09-bf38-6f1770e52612",
+        "amount": 7749,
+        "status": "medium"
+      }
+    ]
+  }
+]
