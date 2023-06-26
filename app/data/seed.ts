@@ -9,6 +9,8 @@ import { Contact } from "./schema"
 
 // run ts-node --compiler-options {\"module\":\"CommonJS\"} app/data/seed.ts
 
+// Refactor
+
 const TagsEnum = TAGS.map((tag) => tag.value)
 const CategoriesEnum = CATEGORIES.map((category) => category.value)
 const ProjectStatusesEnum = PROJECT_STATUSES.map((status) => status.value)
@@ -42,8 +44,8 @@ const data: Contact[] = Array.from({ length: 20 }, () => ({
   projects: Array.from({ length: randomNum }, () => ({
     uuid: faker.string.uuid(),
     title: faker.commerce.product(),
-    priorities: faker.helpers.arrayElement(ProjectStatusesEnum),
-    status: faker.helpers.arrayElement(PaymentStatusesEnum),
+    priorities: faker.helpers.arrayElement(ProjectPrioritiesEnum),
+    status: faker.helpers.arrayElement(ProjectStatusesEnum),
     notes: Array.from({ length: randomNum }, () => ({
       uuid: faker.string.uuid(),
       creationDate: faker.date.past().toISOString(),
@@ -53,7 +55,7 @@ const data: Contact[] = Array.from({ length: 20 }, () => ({
   earnings: Array.from({ length: randomNum }, () => ({
     uuid: faker.string.uuid(),
     amount: faker.number.int({ min: 1000, max: 10000 }),
-    status: faker.helpers.arrayElement(ProjectPrioritiesEnum),
+    status: faker.helpers.arrayElement(PaymentStatusesEnum),
   })),
 }))
 
