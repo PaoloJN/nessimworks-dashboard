@@ -2,21 +2,22 @@
 
 import React, { useState } from "react"
 import { ColumnDef } from "@tanstack/react-table"
-import { ArrowUpDown, MoreHorizontal } from "lucide-react"
+import { ArrowUpDown, Minus, MoreHorizontal } from "lucide-react"
 
 import { Badge } from "@/components/ui/badge"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Contact } from "@/app/data/schema"
 
-import { TAGS } from "../../app/data/data-constants"
+import { CATEGORIES, TAGS } from "../../app/data/data-constants"
 import { Button } from "../ui/button"
 import { DataTableColumnHeader } from "./data-table-column-header"
 import { DataTableRowActions } from "./data-table-row-actions"
 
-export const columns: ColumnDef<Contact>[] = [
+// old ColumnDef<Contact>[]
+export const columns: any = [
   {
     id: "select",
-    header: ({ table }) => (
+    header: ({ table }: any) => (
       <Checkbox
         checked={table.getIsAllPageRowsSelected()}
         onCheckedChange={(value) => table.toggleAllPageRowsSelected(!!value)}
@@ -24,7 +25,7 @@ export const columns: ColumnDef<Contact>[] = [
         className="translate-y-[2px]"
       />
     ),
-    cell: ({ row }) => (
+    cell: ({ row }: any) => (
       <Checkbox
         checked={row.getIsSelected()}
         onCheckedChange={(value) => row.toggleSelected(!!value)}
@@ -37,8 +38,9 @@ export const columns: ColumnDef<Contact>[] = [
   },
   {
     id: "contactName",
-    accessorFn: (row) => `${row.firstName} ${row.lastName}  ${row.website}`,
-    header: ({ column }) => (
+    accessorFn: (row: any) =>
+      `${row.firstName} ${row.lastName}  ${row.website}`,
+    header: ({ column }: any) => (
       <DataTableColumnHeader column={column} title="Contact Name" />
     ),
     cell: ({ row }: any) => {
@@ -54,8 +56,8 @@ export const columns: ColumnDef<Contact>[] = [
   },
   {
     id: "contactInfo",
-    accessorFn: (row) => `${row.email}  ${row.phone}`,
-    header: ({ column }) => (
+    accessorFn: (row: any) => `${row.email}  ${row.phone}`,
+    header: ({ column }: any) => (
       <DataTableColumnHeader column={column} title="Contact Infomation" />
     ),
     cell: ({ row }: any) => {
@@ -72,72 +74,104 @@ export const columns: ColumnDef<Contact>[] = [
   },
   {
     id: "tags",
-    accessorFn: (row) => row.tags,
-    header: ({ column }) => (
+    accessorFn: (row: any) => row.tags,
+    header: ({ column }: any) => (
       <DataTableColumnHeader column={column} title="Tags" />
     ),
     cell: ({ row }: any) => {
       const tags = row.getValue("tags")
 
-      const displayTags = tags.map((tag: string) => {
+      // convert the tag values to labels
+      const labels = tags.map((tag: string) => {
         const foundTag = TAGS.find((t) => t.value === tag)
         return foundTag ? foundTag.label : tag
       })
 
+      // hide the tags if there are less than 2 and not empty show all tags, else if tags are more than 2 show only 2 tags and hide the rest, else if tags are empty show nothing
+
+      // TODO: add a tooltip to show all tags
+
       return (
-        <>
-          <div className="flex max-w-[500px] space-x-2">
-            {displayTags.map((tag: string) => (
+        <div className="flex max-w-[500px] space-x-2">
+          {labels.length < 2 && labels.length > 0 ? (
+            labels.map((tag: string) => (
               <Badge key={tag} variant="outline" className="h-8 rounded-md">
                 {tag}
               </Badge>
-            ))}
-          </div>
-        </>
+            ))
+          ) : labels.length > 2 ? (
+            <>
+              <Badge variant="outline" className="h-8 rounded-md">
+                {labels[0]}
+              </Badge>
+              <Badge variant="outline" className="h-8 rounded-md">
+                {labels[1]}
+              </Badge>
+              <Badge variant="outline" className="h-8 rounded-md">
+                <MoreHorizontal className="w-4 h-4" />
+                {/* show the length of all tags */}
+                <span className="ml-1">{`(${labels.length - 2})`}</span>
+              </Badge>
+            </>
+          ) : (
+            // show empty icon
+            <Badge variant="outline" className="h-8 rounded-md">
+              <Minus className="w-4 h-4" />
+            </Badge>
+          )}
+        </div>
       )
     },
+    filterFn: "select",
     enableGlobalFilter: false,
   },
-  //   {
-  //     id: "categories",
-  //     accessorFn: (row) => row.categories.join(", "),
-  //     header: "Categories",
-  //     cell: ({ row }: any) => {
-  //       return (
-  //         <OverflowHider>
-  //           <div className="flex max-w-[500px] space-x-1">
-  //             {row
-  //               .getValue("categories")
-  //               .split(", ")
-  //               .map((tag: string) => (
-  //                 <Badge key={tag} variant="outline" className="rounded-md ml-1">
-  //                   {tag}
-  //                 </Badge>
-  //               ))}
+  {
+    id: "categories",
+    accessorFn: (row: any) => row.categories,
+    header: ({ column }: any) => (
+      <DataTableColumnHeader column={column} title="Categories" />
+    ),
+    cell: ({ row }: any) => {
+      const categories = row.getValue("categories")
+
+      // convert the categories values to labels
+      const labels = categories.map((category: string) => {
+        const foundCategory = CATEGORIES.find((t) => t.value === category)
+        return foundCategory ? foundCategory.label : category
+      })
+
+      return (
+        <div className="flex max-w-[500px] space-x-2">
+          {labels.map((category: string) => (
+            <Badge key={category} variant="outline" className="h-8 rounded-md">
+              {category}
+            </Badge>
+          ))}
+        </div>
+      )
+    },
+    filterFn: "select",
+    enableGlobalFilter: false,
+  },
+  // {
+  //   id: "projects",
+  //   accessorFn: (row: any) => row.projects.map(({ title }: any) => title),
+  //   header: "Projects",
+  //   cell: ({ row }: any) => {
+  //     return (
+  //       <div className="flex flex-row space-x-2">
+  //         {row.original.projects.map(({ uuid, title, status }: any) => (
+  //           <div key={uuid} className="flex space-x-1 items-center">
+  //             <Badge variant="outline" className="h-8 rounded-md">
+  //               {status}
+  //             </Badge>
+  //             <span className="truncate font-medium">{title}</span>
   //           </div>
-  //         </OverflowHider>
-  //       )
-  //     },
+  //         ))}
+  //       </div>
+  //     )
   //   },
-  //   {
-  //     id: "projects",
-  //     accessorFn: (row) => row.projects.map(({ title }: any) => title),
-  //     header: "Projects",
-  //     cell: ({ row }: any) => {
-  //       return (
-  //         <OverflowHider>
-  //           {row.original.projects.map(({ uuid, title, status }: any) => (
-  //             <div key={uuid} className="flex space-x-1">
-  //               <Badge variant="outline" className="ml-1">
-  //                 {status}
-  //               </Badge>
-  //               <span className="truncate font-medium">{title}</span>
-  //             </div>
-  //           ))}
-  //         </OverflowHider>
-  //       )
-  //     },
-  //   },
+  // },
   //   {
   //     id: "earnings",
   //     accessorFn: (row) => row.earnings.map(({ amount }: any) => amount),
@@ -164,20 +198,20 @@ export const columns: ColumnDef<Contact>[] = [
   //       )
   //     },
   //   },
-  //   {
-  //     accessorKey: "netRating",
-  //     header: "NetRating",
-  //     cell: ({ row }: any) => {
-  //       return (
-  //         <div className="flex justify-center">
-  //           {row.getValue("netRating").toString()}/10
-  //         </div>
-  //       )
-  //     },
-  //   },
+  {
+    accessorKey: "netRating",
+    header: "NetRating",
+    cell: ({ row }: any) => {
+      return (
+        <div className="flex justify-center">
+          {row.getValue("netRating").toString()}/10
+        </div>
+      )
+    },
+  },
   {
     id: "actions",
-    cell: ({ row }) => <DataTableRowActions row={row} />,
+    cell: ({ row }: any) => <DataTableRowActions row={row} />,
   },
 ]
 

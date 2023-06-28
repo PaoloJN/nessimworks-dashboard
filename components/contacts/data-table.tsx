@@ -33,7 +33,6 @@ import {
   TableRow,
 } from "@/components/ui/table"
 
-import { Input } from "../ui/input"
 import { DataTablePagination } from "./data-table-pagination"
 import { DataTableToolbar } from "./data-table-toolbar"
 
@@ -51,13 +50,47 @@ export function DataTable<TData, TValue>({
 
   // fuzzy search is a search algorithm that matches partial strings and is used to find matches even when there are typos. fuzzyFilter is a custom filter that uses match-sorter's fuzzy search algorithm to search through all the columns in the table
 
+  // use CallBack to prevent infinite loop and optimize performance
   const fuzzyFilter: FilterFn<any> = (row, columnId, value, addMeta) => {
+    console.log("fuzzyFilter Called")
     const itemRank = rankItem(row.getValue(columnId), value)
     addMeta({
       itemRank,
     })
     return itemRank.passed
   }
+
+  // let data = [];
+
+  // let selectedTags = new Set(['tag1', 'tag4']); // convert array to Set
+  // let selectedCategories = new Set(['cat1', 'cat2']); // convert array to Set
+
+  // let filteredData = data.filter(item => {
+  //     let itemTags = new Set(item.tags);
+  //     let itemCategories = new Set(item.categories);
+
+  //     return [...selectedTags].every(tag => itemTags.has(tag))
+  //     && [...selectedCategories].every(category => itemCategories.has(category));
+  // });
+
+  // use CallBack to prevent infinite loop and optimize performance
+  const selectFilter: FilterFn<any> = (row, columnId, value, addMeta) => {
+    console.log("selectFilter Called")
+    const selectedValues = value
+    // console.log("selectedValues: ", selectedValues)
+    // get the row values (tag values) and convert them to a Set
+    const values: any = new Set(row.getValue(columnId) as string[])
+    // console.log("Row labels: ", values)
+
+    // check if selectedValues are included in values (tags) if so return true
+    const included = [...selectedValues].every((selectedValue) =>
+      values.has(selectedValue)
+    )
+
+    return included
+  }
+
+  // later I can create a selectedFilters state to used to sort the tags based on the selected filters
 
   const table = useReactTable({
     data,
@@ -74,28 +107,14 @@ export function DataTable<TData, TValue>({
     globalFilterFn: fuzzyFilter,
     filterFns: {
       fuzzy: fuzzyFilter,
+      select: selectFilter,
     },
     state: {
       sorting,
-      // columnFilters,
+      // selectedFilters,
       globalFilter,
     },
   })
-
-  React.useEffect(() => {
-    // console.log(table)
-    // console.log(table.getColumn("tags"))
-    // GloablFilter
-    // console.log(table.getGlobalAutoFilterFn())
-    // console.log(table.getGlobalFacetedMinMaxValues())
-    // console.log(table.getGlobalFacetedRowModel())
-    // console.log(table.getGlobalFacetedUniqueValues())
-    // console.log("getting state")
-    // console.log(table.getState().globalFilter)
-    // console.log("Column Tags")
-    // console.log(table.getColumn("tags"))
-    // console.log(table.getColumn("tags")?.getFilterValue())
-  }, [table])
 
   return (
     <div className="space-y-4">

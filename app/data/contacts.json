@@ -8,23 +8,8 @@
     "website": "https://devoted-ping.com",
     "email": "Sid.Hamill91@hotmail.com",
     "phone": "351-770-1560",
-    "tags": [
-      "design",
-      "ecommerce",
-      "reactjs",
-      "seo",
-      "php",
-      "nodejs",
-      "wordpress",
-      "marketing"
-    ],
-    "categories": [
-      "tech",
-      "marketing",
-      "seo",
-      "ecommerce",
-      "design"
-    ],
+    "tags": [],
+    "categories": ["tech", "marketing", "seo", "ecommerce", "design"],
     "netRating": 10,
     "notes": [
       {
@@ -252,10 +237,7 @@
       "marketing",
       "php"
     ],
-    "categories": [
-      "ecommerce",
-      "marketing"
-    ],
+    "categories": ["ecommerce", "marketing"],
     "netRating": 3,
     "notes": [
       {
@@ -473,16 +455,8 @@
     "website": "https://old-coliseum.biz/",
     "email": "Elias_Breitenberg19@yahoo.com",
     "phone": "580-442-6323",
-    "tags": [
-      "reactjs",
-      "ecommerce",
-      "nodejs",
-      "php"
-    ],
-    "categories": [
-      "design",
-      "ecommerce"
-    ],
+    "tags": ["reactjs", "ecommerce", "nodejs", "php"],
+    "categories": ["design", "ecommerce"],
     "netRating": 7,
     "notes": [
       {
@@ -700,14 +674,8 @@
     "website": "https://intrepid-transaction.com/",
     "email": "Carmel_Miller@yahoo.com",
     "phone": "569-011-5436",
-    "tags": [
-      "wordpress"
-    ],
-    "categories": [
-      "marketing",
-      "design",
-      "seo"
-    ],
+    "tags": ["wordpress"],
+    "categories": ["marketing", "design", "seo"],
     "netRating": 9,
     "notes": [
       {
@@ -925,21 +893,8 @@
     "website": "https://stormy-withdrawal.net",
     "email": "Soledad30@yahoo.com",
     "phone": "986-194-5315",
-    "tags": [
-      "seo",
-      "marketing",
-      "design",
-      "php",
-      "nodejs",
-      "wordpress"
-    ],
-    "categories": [
-      "tech",
-      "design",
-      "seo",
-      "ecommerce",
-      "marketing"
-    ],
+    "tags": ["seo", "marketing", "design", "php", "nodejs", "wordpress"],
+    "categories": ["tech", "design", "seo", "ecommerce", "marketing"],
     "netRating": 5,
     "notes": [
       {
@@ -1157,18 +1112,8 @@
     "website": "https://uniform-psychology.org",
     "email": "Wilbert60@hotmail.com",
     "phone": "502-340-1003",
-    "tags": [
-      "marketing",
-      "design",
-      "ecommerce",
-      "nodejs",
-      "reactjs"
-    ],
-    "categories": [
-      "seo",
-      "ecommerce",
-      "marketing"
-    ],
+    "tags": ["marketing", "design", "ecommerce", "nodejs", "reactjs"],
+    "categories": ["seo", "ecommerce", "marketing"],
     "netRating": 5,
     "notes": [
       {
@@ -1386,20 +1331,8 @@
     "website": "https://affectionate-fort.com",
     "email": "Hassan.Wisoky63@gmail.com",
     "phone": "947-450-3745",
-    "tags": [
-      "reactjs",
-      "ecommerce",
-      "php",
-      "marketing",
-      "wordpress",
-      "design"
-    ],
-    "categories": [
-      "tech",
-      "seo",
-      "marketing",
-      "ecommerce"
-    ],
+    "tags": ["reactjs", "ecommerce", "php", "marketing", "wordpress", "design"],
+    "categories": ["tech", "seo", "marketing", "ecommerce"],
     "netRating": 2,
     "notes": [
       {
@@ -1627,13 +1560,7 @@
       "marketing",
       "design"
     ],
-    "categories": [
-      "marketing",
-      "seo",
-      "ecommerce",
-      "tech",
-      "design"
-    ],
+    "categories": ["marketing", "seo", "ecommerce", "tech", "design"],
     "netRating": 9,
     "notes": [
       {
@@ -1861,13 +1788,7 @@
       "nodejs",
       "marketing"
     ],
-    "categories": [
-      "design",
-      "ecommerce",
-      "seo",
-      "tech",
-      "marketing"
-    ],
+    "categories": ["design", "ecommerce", "seo", "tech", "marketing"],
     "netRating": 6,
     "notes": [
       {
@@ -2085,13 +2006,8 @@
     "website": "https://tender-buyer.biz",
     "email": "Godfrey.Schowalter59@yahoo.com",
     "phone": "008-906-1214",
-    "tags": [
-      "reactjs"
-    ],
-    "categories": [
-      "marketing",
-      "seo"
-    ],
+    "tags": ["reactjs"],
+    "categories": ["marketing", "seo"],
     "netRating": 10,
     "notes": [
       {
@@ -2309,19 +2225,8 @@
     "website": "https://identical-med.biz/",
     "email": "Wava_Berge@hotmail.com",
     "phone": "051-300-5920",
-    "tags": [
-      "php",
-      "seo",
-      "ecommerce",
-      "nodejs"
-    ],
-    "categories": [
-      "seo",
-      "marketing",
-      "tech",
-      "ecommerce",
-      "design"
-    ],
+    "tags": ["php", "seo", "ecommerce", "nodejs"],
+    "categories": ["seo", "marketing", "tech", "ecommerce", "design"],
     "netRating": 4,
     "notes": [
       {
@@ -2539,13 +2444,8 @@
     "website": "https://gray-knowledge.net/",
     "email": "Jefferey81@hotmail.com",
     "phone": "098-396-6318",
-    "tags": [
-      "marketing",
-      "php"
-    ],
-    "categories": [
-      "tech"
-    ],
+    "tags": ["marketing", "php"],
+    "categories": ["tech"],
     "netRating": 5,
     "notes": [
       {
@@ -2773,9 +2673,7 @@
       "seo",
       "reactjs"
     ],
-    "categories": [
-      "marketing"
-    ],
+    "categories": ["marketing"],
     "netRating": 2,
     "notes": [
       {
@@ -2993,13 +2891,8 @@
     "website": "https://brief-locality.com/",
     "email": "Norbert.Ziemann26@gmail.com",
     "phone": "656-918-5790",
-    "tags": [
-      "marketing"
-    ],
-    "categories": [
-      "design",
-      "seo"
-    ],
+    "tags": ["marketing"],
+    "categories": ["design", "seo"],
     "netRating": 1,
     "notes": [
       {
@@ -3217,16 +3110,8 @@
     "website": "https://both-personnel.name",
     "email": "Robbie.Gottlieb@hotmail.com",
     "phone": "403-818-3754",
-    "tags": [
-      "marketing"
-    ],
-    "categories": [
-      "ecommerce",
-      "seo",
-      "design",
-      "tech",
-      "marketing"
-    ],
+    "tags": ["marketing"],
+    "categories": ["ecommerce", "seo", "design", "tech", "marketing"],
     "netRating": 4,
     "notes": [
       {
@@ -3444,17 +3329,8 @@
     "website": "https://scared-authority.name/",
     "email": "Vance67@yahoo.com",
     "phone": "197-363-4600",
-    "tags": [
-      "php",
-      "wordpress",
-      "marketing"
-    ],
-    "categories": [
-      "design",
-      "seo",
-      "tech",
-      "ecommerce"
-    ],
+    "tags": ["php", "wordpress", "marketing"],
+    "categories": ["design", "seo", "tech", "ecommerce"],
     "netRating": 5,
     "notes": [
       {
@@ -3672,19 +3548,8 @@
     "website": "https://livid-fen.com/",
     "email": "Keon.Kuvalis12@gmail.com",
     "phone": "491-476-1997",
-    "tags": [
-      "wordpress",
-      "nodejs",
-      "seo",
-      "marketing",
-      "reactjs",
-      "ecommerce"
-    ],
-    "categories": [
-      "ecommerce",
-      "design",
-      "seo"
-    ],
+    "tags": ["wordpress", "nodejs", "seo", "marketing", "reactjs", "ecommerce"],
+    "categories": ["ecommerce", "design", "seo"],
     "netRating": 2,
     "notes": [
       {
@@ -3902,14 +3767,8 @@
     "website": "https://sweltering-flung.name",
     "email": "Samantha36@yahoo.com",
     "phone": "837-156-4929",
-    "tags": [
-      "seo"
-    ],
-    "categories": [
-      "marketing",
-      "ecommerce",
-      "seo"
-    ],
+    "tags": ["seo"],
+    "categories": ["marketing", "ecommerce", "seo"],
     "netRating": 9,
     "notes": [
       {
@@ -4127,18 +3986,8 @@
     "website": "https://oily-hurry.com",
     "email": "Eldon87@gmail.com",
     "phone": "080-702-7671",
-    "tags": [
-      "ecommerce",
-      "wordpress",
-      "reactjs",
-      "nodejs"
-    ],
-    "categories": [
-      "design",
-      "marketing",
-      "ecommerce",
-      "tech"
-    ],
+    "tags": ["ecommerce", "wordpress", "reactjs", "nodejs"],
+    "categories": ["design", "marketing", "ecommerce", "tech"],
     "netRating": 3,
     "notes": [
       {
@@ -4356,14 +4205,8 @@
     "website": "https://thorny-raspberry.org",
     "email": "Elmo.Barrows83@hotmail.com",
     "phone": "964-478-4586",
-    "tags": [
-      "php",
-      "nodejs"
-    ],
-    "categories": [
-      "seo",
-      "tech"
-    ],
+    "tags": ["php", "nodejs"],
+    "categories": ["seo", "tech"],
     "netRating": 6,
     "notes": [
       {
