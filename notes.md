@@ -10,6 +10,8 @@
 
 4. **PGAdmin** - Master the use of pgAdmin. This [tutorial](https://www.youtube.com/watch?v=WFT5MaZN6g4&ab_channel=DatabaseStar) will help.
 
+5. **Git ssh** - Setting Up SSH Keys for GitHub [tutorial](https://www.youtube.com/watch?v=8X4u9sca3Io&ab_channel=VictorGeislinger)
+
 ## Next.js 13 with Prisma
 
 - Understand the integration of Next.js 13 with Prisma using these resources:
