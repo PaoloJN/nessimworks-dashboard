@@ -48,11 +48,11 @@ export function DataTable<TData, TValue>({
   const [sorting, setSorting] = React.useState<SortingState>([])
   const [globalFilter, setGlobalFilter] = React.useState("")
 
-  // fuzzy search is a search algorithm that matches partial strings and is used to find matches even when there are typos. fuzzyFilter is a custom filter that uses match-sorter's fuzzy search algorithm to search through all the columns in the table
+  // https://stackoverflow.com/questions/64171585/highlight-searched-text-inside-the-table
 
-  // use CallBack to prevent infinite loop and optimize performance
+  // add functionality to highlight the searched text in the table
   const fuzzyFilter: FilterFn<any> = (row, columnId, value, addMeta) => {
-    console.log("fuzzyFilter Called")
+    // console.log("fuzzyFilter Called")
     const itemRank = rankItem(row.getValue(columnId), value)
     addMeta({
       itemRank,
@@ -60,37 +60,17 @@ export function DataTable<TData, TValue>({
     return itemRank.passed
   }
 
-  // let data = [];
-
-  // let selectedTags = new Set(['tag1', 'tag4']); // convert array to Set
-  // let selectedCategories = new Set(['cat1', 'cat2']); // convert array to Set
-
-  // let filteredData = data.filter(item => {
-  //     let itemTags = new Set(item.tags);
-  //     let itemCategories = new Set(item.categories);
-
-  //     return [...selectedTags].every(tag => itemTags.has(tag))
-  //     && [...selectedCategories].every(category => itemCategories.has(category));
-  // });
-
   // use CallBack to prevent infinite loop and optimize performance
   const selectFilter: FilterFn<any> = (row, columnId, value, addMeta) => {
-    console.log("selectFilter Called")
+    // later I can create a selectedFilters state to used to sort the tags based on the selected filters
+    // console.log("selectFilter Called")
     const selectedValues = value
-    // console.log("selectedValues: ", selectedValues)
-    // get the row values (tag values) and convert them to a Set
     const values: any = new Set(row.getValue(columnId) as string[])
-    // console.log("Row labels: ", values)
-
-    // check if selectedValues are included in values (tags) if so return true
     const included = [...selectedValues].every((selectedValue) =>
       values.has(selectedValue)
     )
-
     return included
   }
-
-  // later I can create a selectedFilters state to used to sort the tags based on the selected filters
 
   const table = useReactTable({
     data,
@@ -117,10 +97,10 @@ export function DataTable<TData, TValue>({
   })
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 w-full">
       <DataTableToolbar table={table} />
-      <div className="rounded-md border">
-        <Table>
+      <div className="rounded-md border w-full overflow-y-auto">
+        <Table className="relative">
           <TableHeader>
             {table.getHeaderGroups().map((headerGroup) => (
               <TableRow key={headerGroup.id}>

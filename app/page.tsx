@@ -21,22 +21,36 @@ async function getData() {
 }
 
 // TODO:
-// - add tooltip to show more of tags and categories
-// - Render all the data in the table
-// - check with dad about the selectMenu and searchInput and see if need to change or fix
+// // - add tooltip to show more of tags and categories
+// //- Render all the data in the table Done
+// // - check with dad about the selectMenu and searchInput and see if need to change or fix Done
 // - change the style of the selectMenu
-// - change the sorting functionality
+// // - change the sorting functionality Done
 // - add the types for all the components
 // - optimize all rendering, filtering, searching, etc.
+// - add database with CRUD api
 // - add CRUD functionality to the table and tags and categories
 // - fix the view of table
+
+// <section className="container items-center pb-8 pt-6 md:py-10"></section>
 
 export default async function MainPage() {
   const data = await getData()
 
   return (
-    <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
+    <div className="hidden h-full flex-1 flex-col space-y-8 p-8 md:flex">
       <DataTable data={data} columns={columns} />
-    </section>
+    </div>
   )
 }
+
+
+      // <div className="flex items-center justify-between space-y-2">
+      //   <div>
+      //     <h2 className="text-2xl font-bold tracking-tight">Welcome back!</h2>
+      //     <p className="text-muted-foreground">
+      //       Here&apos;s a list of your tasks for this month!
+      //     </p>
+      //   </div>
+      //   <div className="flex items-center space-x-2">{/* <UserNav /> */}</div>
+      // </div>

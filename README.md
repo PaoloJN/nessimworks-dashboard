@@ -10,12 +10,11 @@ Template for a Next.js 13 application. It is preconfigured with TypeScript, ESLi
 - Icons from Lucide
 - Dark mode with next-themes
 
-
 ## Requirements
 
 Before starting, make sure you have Node.js and pnpm installed on your system.
 
-- Node.js 12.0+ 
+- Node.js 12.0+
 - pnpm 6.0+
 
 ## Getting Started
@@ -23,7 +22,6 @@ Before starting, make sure you have Node.js and pnpm installed on your system.
 ### Using create-next-app
 
 To create a new project based on this template, run:
-
 
 ```bash
 pnpx create-next-app <name> -e https://github.com/PaoloJN/next-template
@@ -51,7 +49,7 @@ pnpm install
 You can start the development server with:
 
 ```bash
-pnpm run dev
+pnpm dev
 ```
 
 Then, open `http://localhost:3000` in a browser.
@@ -81,4 +79,3 @@ This project is licensed under the terms of the [MIT license](./LICENSE).
 If you're having any problem, please raise an issue on GitHub.
 
 **Happy coding!**
-

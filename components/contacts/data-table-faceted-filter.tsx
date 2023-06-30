@@ -41,16 +41,11 @@ export function DataTableFacetedFilter<TData, TValue>({
   const facets = column?.getFacetedUniqueValues()
   const selectedValues = new Set(column?.getFilterValue() as string[])
 
-  // console.log("Facets")
-  // console.log(facets)
-  // console.log("Selected values")
-  // console.log(selectedValues)
-
   return (
     <Popover>
       <PopoverTrigger asChild>
         <Button variant="outline" size="sm" className="h-10 border-dashed">
-          <PlusCircle className="mr-2 h-4 w-4" />
+          <PlusCircle className="mr-2 h-3.5 w-3.5" />
           {title}
           {selectedValues?.size > 0 && (
             <>
@@ -104,11 +99,6 @@ export function DataTableFacetedFilter<TData, TValue>({
                       } else {
                         selectedValues.add(option.value)
                       }
-                      // const filterValues = Array.from(selectedValues)
-                      // column?.setFilterValue(
-                      //   filterValues.length ? filterValues : undefined
-                      // )
-                      // check if selectedValues is empty if so set filter to undefined else set filter to selectedValues
                       column?.setFilterValue(
                         selectedValues.size ? selectedValues : undefined
                       )

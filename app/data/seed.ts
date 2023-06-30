@@ -21,7 +21,7 @@ const ProjectPrioritiesEnum = PROJECT_PRIORITIES.map(
 
 const randomNum = Math.floor(Math.random() * 5) + 1
 
-const data: Contact[] = Array.from({ length: 20 }, () => ({
+const data: Contact[] = Array.from({ length: 100 }, () => ({
   uuid: faker.string.uuid(),
   hubspotContactId: faker.string.uuid(),
   firstName: faker.person.firstName(),

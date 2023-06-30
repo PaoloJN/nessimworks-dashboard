@@ -33,31 +33,31 @@ export function DataTableColumnHeader<TData, TValue>({
           <Button
             variant="ghost"
             size="sm"
-            className="-ml-3 h-8 data-[state=open]:bg-accent"
+            className="-ml-3 p-3 h-7 data-[state=open]:bg-accent"
           >
-            <span>{title}</span>
+            <span className="whitespace-nowrap text-[12px]">{title}</span>
             {column.getIsSorted() === "desc" ? (
               <SortDesc className="ml-2 h-4 w-4" />
             ) : column.getIsSorted() === "asc" ? (
               <SortAsc className="ml-2 h-4 w-4" />
             ) : (
-              <ChevronsUpDown className="ml-2 h-4 w-4" />
+              <ChevronsUpDown className="ml-2 h-3 w-3" />
             )}
           </Button>
         </DropdownMenuTrigger>
         <DropdownMenuContent align="start">
           <DropdownMenuItem onClick={() => column.toggleSorting(false)}>
-            <SortAsc className="mr-2 h-3.5 w-3.5 text-muted-foreground/70" />
-            Asc
+            <SortAsc className="mr-2 h-3 w-3 text-muted-foreground/70" />
+            <span className="text-[12px]">Asc</span>
           </DropdownMenuItem>
           <DropdownMenuItem onClick={() => column.toggleSorting(true)}>
-            <SortDesc className="mr-2 h-3.5 w-3.5 text-muted-foreground/70" />
-            Desc
+            <SortDesc className="mr-2 h-3 w-3 text-muted-foreground/70" />
+            <span className="text-[12px]">Desc</span>
           </DropdownMenuItem>
           <DropdownMenuSeparator />
           <DropdownMenuItem onClick={() => column.toggleVisibility(false)}>
-            <EyeOff className="mr-2 h-3.5 w-3.5 text-muted-foreground/70" />
-            Hide
+            <EyeOff className="mr-2 h-3 w-3 text-muted-foreground/70" />
+            <span className="text-[12px]">Hide</span>
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>

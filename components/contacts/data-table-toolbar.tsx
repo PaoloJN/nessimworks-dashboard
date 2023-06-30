@@ -2,14 +2,24 @@
 
 import * as React from "react"
 import { Table } from "@tanstack/react-table"
-import { Plus, Search, X } from "lucide-react"
+import { Plus, X } from "lucide-react"
 
-import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
 import { Input } from "@/components/ui/input"
+import { Label } from "@/components/ui/label"
 
 import { CATEGORIES, TAGS } from "../../app/data/data-constants"
 import { DataTableFacetedFilter } from "./data-table-faceted-filter"
+import { SearchInput } from "./data-table-search"
 import { DataTableViewOptions } from "./data-table-view-options"
 
 // import { DataTableViewOptions } from "./data-table-view-options"
@@ -28,17 +38,6 @@ export function DataTableToolbar<TData>({
   return (
     <div className="flex items-center justify-between">
       <div className="flex flex-1 items-center space-x-2">
-        {/* <Input
-          placeholder="Filter Contacts..."
-          value={
-            (table.getColumn("contactInfo")?.getFilterValue() as string) ?? ""
-          }
-          onChange={(event) =>
-            table.getColumn("contactInfo")?.setFilterValue(event.target.value)
-          }
-          className="h-8 w-[150px] lg:w-[250px]"
-        /> */}
-
         <SearchInput
           placeholder="Search Contacts"
           className="h-10 w-[150px] lg:w-[250px]"
@@ -59,13 +58,6 @@ export function DataTableToolbar<TData>({
             options={CATEGORIES}
           />
         )}
-        {/* {table.getColumn("priority") && (
-          <DataTableFacetedFilter
-            column={table.getColumn("priority")}
-            title="Priority"
-            options={TAGS}
-          />
-        )} */}
         {isFiltered && (
           <Button
             variant="ghost"
@@ -84,14 +76,16 @@ export function DataTableToolbar<TData>({
       <div className="flex items-center space-x-2">
         <Button
           variant="outline"
-          className="h-10 p-3"
+          size="sm"
           onClick={() => {
             alert("Create new Contact")
           }}
         >
-          <Plus className="h-4 w-4 mr-2" />
-          <span>Create</span>
+          <Plus className="h-3.5 w-3.5" />
+          {/* <span>Create</span> */}
         </Button>
+
+        <DialogDemo />
 
         <DataTableViewOptions table={table} />
       </div>
@@ -99,26 +93,41 @@ export function DataTableToolbar<TData>({
   )
 }
 
-export interface InputProps
-  extends React.InputHTMLAttributes<HTMLInputElement> {}
-
-const SearchInput = React.forwardRef<HTMLInputElement, InputProps>(
-  ({ className, type, ...props }, ref) => {
-    return (
-      <div className="relative flex items-center">
-        <Search className="h-[15px] w-[15px] absolute translate-x-[11px]" />
-        <input
-          type={type}
-          className={cn(
-            "flex h-10 w-full rounded-md border border-input bg-background px-8 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50",
-            className
-          )}
-          ref={ref}
-          {...props}
-        />
-      </div>
-    )
-  }
-)
-
-SearchInput.displayName = "Input.Search"
+export function DialogDemo() {
+  return (
+    <Dialog>
+      <DialogTrigger asChild>
+        <Button variant="outline">Edit Profile</Button>
+      </DialogTrigger>
+      <DialogContent className="sm:max-w-[425px]">
+        <DialogHeader>
+          <DialogTitle>Edit profile</DialogTitle>
+          <DialogDescription>
+            Make changes to your profile here. Click save when youre done.
+          </DialogDescription>
+        </DialogHeader>
+        <div className="grid gap-4 py-4">
+          <div className="grid grid-cols-4 items-center gap-4">
+            <Label htmlFor="name" className="text-right">
+              Name
+            </Label>
+            <Input id="name" value="Paolo" className="col-span-3" />
+          </div>
+          <div className="grid grid-cols-4 items-center gap-4">
+            <Label htmlFor="username" className="text-right">
+              Username
+            </Label>
+            <Input
+              id="username"
+              value="Blah blah blah"
+              className="col-span-3"
+            />
+          </div>
+        </div>
+        <DialogFooter>
+          <Button type="submit">Save changes</Button>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+  )
+}
