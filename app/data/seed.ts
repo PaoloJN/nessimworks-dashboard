@@ -9,8 +9,6 @@ import { Contact } from "./schema"
 
 // run ts-node --compiler-options {\"module\":\"CommonJS\"} app/data/seed.ts
 
-// Refactor
-
 const TagsEnum = TAGS.map((tag) => tag.value)
 const CategoriesEnum = CATEGORIES.map((category) => category.value)
 const ProjectStatusesEnum = PROJECT_STATUSES.map((status) => status.value)

@@ -11,7 +11,6 @@ const Tooltip = TooltipPrimitive.Root
 
 const TooltipTrigger = TooltipPrimitive.Trigger
 
-// add TooltipArrow
 const TooltipArrow = TooltipPrimitive.Arrow
 
 const TooltipContent = React.forwardRef<

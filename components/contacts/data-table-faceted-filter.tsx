@@ -31,8 +31,6 @@ interface DataTableFacetedFilter<TData, TValue> {
   }[]
 }
 
-// FacetedFilter is a custom filter that allows you to select multiple values from a list of options and filter the table based on those values.
-
 export function DataTableFacetedFilter<TData, TValue>({
   column,
   title,

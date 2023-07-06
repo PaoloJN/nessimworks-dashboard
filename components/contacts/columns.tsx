@@ -13,7 +13,6 @@ import { DataTableColumnHeader } from "./data-table-column-header"
 import { DataTableRowActions } from "./data-table-row-actions"
 import { ShowLabels } from "./data-table-show-labels"
 
-// old ColumnDef<Contact>[]
 export const columns: any = [
   {
     id: "select",
@@ -45,7 +44,6 @@ export const columns: any = [
     ),
     cell: ({ row }: any) => {
       const [fullName, website] = row.getValue("name").split("  ")
-      // show just the 10 first characters of the website
       const websiteShort = website.slice(0, 30).concat("...")
 
       return (

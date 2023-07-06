@@ -2,13 +2,6 @@
 
 import React from "react"
 import { rankItem } from "@tanstack/match-sorter-utils"
-// match-sorter is a dependency of @tanstack/react-table and is used to sort and filter data in the table
-// it can be used to create custom filters and sorters like a fuzzy search
-
-// fuzzy search is a search algorithm that matches partial strings and is used to find matches even when there are typos
-
-// u can make a global search by using match-sorter's fuzzy search algorithm to search through all the columns in the table
-
 import {
   ColumnDef,
   // ColumnFiltersState,
@@ -62,8 +55,6 @@ export function DataTable<TData, TValue>({
 
   // use CallBack to prevent infinite loop and optimize performance
   const selectFilter: FilterFn<any> = (row, columnId, value, addMeta) => {
-    // later I can create a selectedFilters state to used to sort the tags based on the selected filters
-    // console.log("selectFilter Called")
     const selectedValues = value
     const values: any = new Set(row.getValue(columnId) as string[])
     const included = [...selectedValues].every((selectedValue) =>
